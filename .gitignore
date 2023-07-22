@@ -1,0 +1,10 @@
+whatsapp/resources
+whatsapp/.vscode
+whatsapp/__pycache__
+whatsapp/WhatsAppAPIs
+whatsapp/whatsapp-api.md
+whatsapp/genai_whatsapp.pem
+whatsapp/ec2-details.md
+whatsapp/.gitattributes
+.DS_Store
+__pycache__
