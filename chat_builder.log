@@ -1,0 +1,126 @@
+INFO:root:##################WHATSAPP REQUEST#####################
+INFO:root:Data: {"Id": 79, "status": 3}
+INFO:werkzeug:172.31.20.8 - - [20/Jul/2023 07:14:49] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+INFO:root:##################WHATSAPP REQUEST#####################
+INFO:root:Data: {"Id": 79, "status": 3}
+INFO:werkzeug:172.31.20.8 - - [20/Jul/2023 08:27:34] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+INFO:werkzeug:155.190.53.6 - - [20/Jul/2023 08:27:48] "[31m[1mGET / HTTP/1.1[0m" 405 -
+INFO:werkzeug:155.190.53.6 - - [20/Jul/2023 08:27:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:root:##################WHATSAPP REQUEST#####################
+INFO:root:Data: {"bot_state": "MainMenu", "data": {"type": "text", "body": {"data": "Welcome to the Ozonetel Cloud Communication API"}}}
+INFO:root:Return: {"bot_state": "Next_Menu", "data": [{"type": "interactive", "body": {"type": "button", "title": "Please share your feedback on this document", "choices": [{"id": "1", "title": "Send Text"}, {"id": "2", "title": "Send Video"}, {"id": "3", "title": "Send List"}]}}]}
+INFO:werkzeug:155.190.53.6 - - [20/Jul/2023 08:28:05] "POST / HTTP/1.1" 200 -
+INFO:root:##################WHATSAPP REQUEST#####################
+INFO:root:Data: {"bot_state": "", "caller": {"id": "+919741809955", "phone_number": "+919741809955", "email": "", "name": "Sateesh Challa"}, "campaign_number": "918048811609", "channel": {"sid": "1689841721927341", "type": "whatsapp"}, "data": {"body": {"data": "Hi"}, "type": "text"}, "event": "new_conversation", "sid": "1689742026", "user": "hackathon62"}
+INFO:root:Return: {"bot_state": "Next_Menu", "data": [{"type": "interactive", "body": {"type": "button", "title": "Please share your feedback on this document", "choices": [{"id": "1", "title": "Send Text"}, {"id": "2", "title": "Send Video"}, {"id": "3", "title": "Send List"}]}}]}
+INFO:werkzeug:3.111.26.194 - - [20/Jul/2023 08:28:42] "POST / HTTP/1.1" 200 -
+INFO:root:##################WHATSAPP REQUEST#####################
+INFO:root:Data: {"bot_state": "", "caller": {"id": "+919035286569", "phone_number": "+919035286569", "email": "", "name": "Supreeth"}, "campaign_number": "918048811609", "channel": {"sid": "1689841807162124", "type": "whatsapp"}, "data": {"body": {"data": "Hi"}, "type": "text"}, "event": "new_conversation", "sid": "1689740239", "user": "hackathon62"}
+INFO:root:Return: {"bot_state": "Next_Menu", "data": [{"type": "interactive", "body": {"type": "button", "title": "Please share your feedback on this document", "choices": [{"id": "1", "title": "Send Text"}, {"id": "2", "title": "Send Video"}, {"id": "3", "title": "Send List"}]}}]}
+INFO:werkzeug:3.111.26.194 - - [20/Jul/2023 08:30:07] "POST / HTTP/1.1" 200 -
+INFO:root:##################WHATSAPP REQUEST#####################
+INFO:root:Data: {"bot_state": "Next_Menu", "caller": {"id": "+919035286569", "phone_number": "+919035286569", "email": "", "name": "Supreeth"}, "campaign_number": "918048811609", "channel": {"sid": "1689841807162124", "type": "whatsapp"}, "data": {"body": {"id": "1", "title": "Send Text"}, "type": "reply"}, "event": "new_conversation", "sid": "1689740239", "user": "hackathon62"}
+INFO:root:Return: {"bot_state": "1689841815.8626547", "data": [{"type": "text", "body": {"data": "We will contact you soon"}}]}
+INFO:werkzeug:3.111.26.194 - - [20/Jul/2023 08:30:15] "POST / HTTP/1.1" 200 -
+INFO:root:##################WHATSAPP REQUEST#####################
+INFO:root:Data: {"bot_state": "1689841815.8626547", "caller": {"id": "+919035286569", "phone_number": "+919035286569", "email": "", "name": "Supreeth"}, "campaign_number": "918048811609", "channel": {"sid": "1689841807162124", "type": "whatsapp"}, "data": {"body": {"data": "I am not happy"}, "type": "text"}, "event": "new_conversation", "sid": "1689740239", "user": "hackathon62"}
+INFO:root:Return: {"bot_state": "Next_Menu", "data": [{"type": "interactive", "body": {"type": "button", "title": "Please share your feedback on this document", "choices": [{"id": "1", "title": "Send Text"}, {"id": "2", "title": "Send Video"}, {"id": "3", "title": "Send List"}]}}]}
+INFO:werkzeug:3.111.26.194 - - [20/Jul/2023 08:30:20] "POST / HTTP/1.1" 200 -
+INFO:root:##################WHATSAPP REQUEST#####################
+INFO:root:Data: {"bot_state": "Next_Menu", "caller": {"id": "+919035286569", "phone_number": "+919035286569", "email": "", "name": "Supreeth"}, "campaign_number": "918048811609", "channel": {"sid": "1689841807162124", "type": "whatsapp"}, "data": {"body": {"id": "2", "title": "Send Video"}, "type": "reply"}, "event": "new_conversation", "sid": "1689740239", "user": "hackathon62"}
+INFO:root:Return: {"bot_state": "1689841831.9366298", "data": [{"type": "video", "body": {"link": "https://media.w3.org/2010/05/sintel/trailer.mp4", "mime_type": "", "caption": "Sample Video"}}]}
+INFO:werkzeug:3.111.26.194 - - [20/Jul/2023 08:30:31] "POST / HTTP/1.1" 200 -
+INFO:root:##################WHATSAPP REQUEST#####################
+INFO:root:Data: {"bot_state": "Next_Menu", "caller": {"id": "+919741809955", "phone_number": "+919741809955", "email": "", "name": "Sateesh Challa"}, "campaign_number": "918048811609", "channel": {"sid": "1689841721927341", "type": "whatsapp"}, "data": {"body": {"id": "1", "title": "Send Text"}, "type": "reply"}, "event": "new_conversation", "sid": "1689742026", "user": "hackathon62"}
+INFO:root:Return: {"bot_state": "1689841852.491702", "data": [{"type": "text", "body": {"data": "We will contact you soon"}}]}
+INFO:werkzeug:3.111.26.194 - - [20/Jul/2023 08:30:52] "POST / HTTP/1.1" 200 -
+INFO:root:##################WHATSAPP REQUEST#####################
+INFO:root:Data: {"bot_state": "1689841831.9366298", "caller": {"id": "+919035286569", "phone_number": "+919035286569", "email": "", "name": "Supreeth"}, "campaign_number": "918048811609", "channel": {"sid": "1689841807162124", "type": "whatsapp"}, "data": {"body": {"caption": "Sample Video", "link": "https://kookoo.in/customers/whatsapp/WAmedia.php?id=694145509393868", "mime_type": "video/mp4"}, "type": "video"}, "event": "new_conversation", "sid": "1689740239", "user": "hackathon62"}
+INFO:root:Return: {"bot_state": "1689841869.4764254", "data": [{"type": "text", "body": {"data": "Invalid Request data"}}]}
+INFO:werkzeug:3.111.26.194 - - [20/Jul/2023 08:31:09] "POST / HTTP/1.1" 200 -
+INFO:root:##################WHATSAPP REQUEST#####################
+INFO:root:Data: {"bot_state": "1689841852.491702", "caller": {"id": "+919741809955", "phone_number": "+919741809955", "email": "", "name": "Sateesh Challa"}, "campaign_number": "918048811609", "channel": {"sid": "1689841721927341", "type": "whatsapp"}, "data": {"body": {"id": "2", "title": "Send Video"}, "type": "reply"}, "event": "new_conversation", "sid": "1689742026", "user": "hackathon62"}
+INFO:root:Return: {"bot_state": "1689841881.2406607", "data": [{"type": "text", "body": {"data": "Invalid Request data"}}]}
+INFO:werkzeug:3.111.26.194 - - [20/Jul/2023 08:31:21] "POST / HTTP/1.1" 200 -
+INFO:root:##################WHATSAPP REQUEST#####################
+INFO:root:Data: {"bot_state": "1689841869.4764254", "caller": {"id": "+919035286569", "phone_number": "+919035286569", "email": "", "name": "Supreeth"}, "campaign_number": "918048811609", "channel": {"sid": "1689841807162124", "type": "whatsapp"}, "data": {"body": {"id": "1", "title": "Send Text"}, "type": "reply"}, "event": "new_conversation", "sid": "1689740239", "user": "hackathon62"}
+INFO:root:Return: {"bot_state": "1689841914.4890044", "data": [{"type": "text", "body": {"data": "Invalid Request data"}}]}
+INFO:werkzeug:3.111.26.194 - - [20/Jul/2023 08:31:54] "POST / HTTP/1.1" 200 -
+INFO:root:##################WHATSAPP REQUEST#####################
+INFO:root:Data: {"bot_state": "1689841914.4890044", "caller": {"id": "+919035286569", "phone_number": "+919035286569", "email": "", "name": "Supreeth"}, "campaign_number": "918048811609", "channel": {"sid": "1689841807162124", "type": "whatsapp"}, "data": {"body": {"data": "Hello !"}, "type": "text"}, "event": "new_conversation", "sid": "1689740239", "user": "hackathon62"}
+INFO:root:Return: {"bot_state": "Next_Menu", "data": [{"type": "interactive", "body": {"type": "button", "title": "Please share your feedback on this document", "choices": [{"id": "1", "title": "Send Text"}, {"id": "2", "title": "Send Video"}, {"id": "3", "title": "Send List"}]}}]}
+INFO:werkzeug:3.111.26.194 - - [20/Jul/2023 08:32:05] "POST / HTTP/1.1" 200 -
+INFO:root:##################WHATSAPP REQUEST#####################
+INFO:root:Data: {"bot_state": "Next_Menu", "caller": {"id": "+919035286569", "phone_number": "+919035286569", "email": "", "name": "Supreeth"}, "campaign_number": "918048811609", "channel": {"sid": "1689841807162124", "type": "whatsapp"}, "data": {"body": {"data": "I am here"}, "type": "text"}, "event": "new_conversation", "sid": "1689740239", "user": "hackathon62"}
+INFO:root:Return: {"bot_state": "Next_Menu", "data": [{"type": "interactive", "body": {"type": "button", "title": "Please share your feedback on this document", "choices": [{"id": "1", "title": "Send Text"}, {"id": "2", "title": "Send Video"}, {"id": "3", "title": "Send List"}]}}]}
+INFO:werkzeug:3.111.26.194 - - [20/Jul/2023 08:32:07] "POST / HTTP/1.1" 200 -
+INFO:root:##################WHATSAPP REQUEST#####################
+INFO:root:Data: {"bot_state": "Next_Menu", "caller": {"id": "+919035286569", "phone_number": "+919035286569", "email": "", "name": "Supreeth"}, "campaign_number": "918048811609", "channel": {"sid": "1689841807162124", "type": "whatsapp"}, "data": {"body": {"id": "1", "title": "Send Text"}, "type": "reply"}, "event": "new_conversation", "sid": "1689740239", "user": "hackathon62"}
+INFO:root:Return: {"bot_state": "1689841974.3701515", "data": [{"type": "text", "body": {"data": "We will contact you soon"}}]}
+INFO:werkzeug:3.111.26.194 - - [20/Jul/2023 08:32:54] "POST / HTTP/1.1" 200 -
+INFO:root:##################WHATSAPP REQUEST#####################
+INFO:root:Data: {"bot_state": "1689841974.3701515", "caller": {"id": "+919035286569", "phone_number": "+919035286569", "email": "", "name": "Supreeth"}, "campaign_number": "918048811609", "channel": {"sid": "1689841807162124", "type": "whatsapp"}, "data": {"body": {"data": "I've installed bash on Ubuntu on Windows feature on Windows 10 and I want to change directory this path on my C:\\ drive:"}, "type": "text"}, "event": "new_conversation", "sid": "1689740239", "user": "hackathon62"}
+INFO:root:Return: {"bot_state": "Next_Menu", "data": [{"type": "interactive", "body": {"type": "button", "title": "Please share your feedback on this document", "choices": [{"id": "1", "title": "Send Text"}, {"id": "2", "title": "Send Video"}, {"id": "3", "title": "Send List"}]}}]}
+INFO:werkzeug:3.111.26.194 - - [20/Jul/2023 08:32:57] "POST / HTTP/1.1" 200 -
+INFO:root:##################WHATSAPP REQUEST#####################
+INFO:root:Data: {"bot_state": "", "caller": {"id": "+917588788564", "phone_number": "+917588788564", "email": "", "name": "Shreeyash"}, "campaign_number": "918048811609", "channel": {"sid": "1689842058323001", "type": "whatsapp"}, "data": {"body": {"data": "hello, I am eating biryani in hyderabad"}, "type": "text"}, "event": "new_conversation", "sid": "", "user": "hackathon62"}
+INFO:root:Return: {"bot_state": "Next_Menu", "data": [{"type": "interactive", "body": {"type": "button", "title": "Please share your feedback on this document", "choices": [{"id": "1", "title": "Send Text"}, {"id": "2", "title": "Send Video"}, {"id": "3", "title": "Send List"}]}}]}
+INFO:werkzeug:3.111.26.194 - - [20/Jul/2023 08:34:18] "POST / HTTP/1.1" 200 -
+INFO:root:##################WHATSAPP REQUEST#####################
+INFO:root:Data: {"bot_state": "Next_Menu", "caller": {"id": "+917588788564", "phone_number": "+917588788564", "email": "", "name": "Shreeyash"}, "campaign_number": "918048811609", "channel": {"sid": "1689842058323001", "type": "whatsapp"}, "data": {"body": {"data": "parsing freetext"}, "type": "text"}, "event": "new_conversation", "sid": "1689842058", "user": "hackathon62"}
+INFO:root:Return: {"bot_state": "Next_Menu", "data": [{"type": "interactive", "body": {"type": "button", "title": "Please share your feedback on this document", "choices": [{"id": "1", "title": "Send Text"}, {"id": "2", "title": "Send Video"}, {"id": "3", "title": "Send List"}]}}]}
+INFO:werkzeug:3.111.26.194 - - [20/Jul/2023 08:35:19] "POST / HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/ubuntu/whatsapp_hackathon-main/SampleBotFlow.py', reloading
+INFO:root:##################WHATSAPP REQUEST#####################
+INFO:root:Data: {"bot_state": "Next_Menu", "caller": {"id": "+917588788564", "phone_number": "+917588788564", "email": "", "name": "Shreeyash"}, "campaign_number": "918048811609", "channel": {"sid": "1689842058323001", "type": "whatsapp"}, "data": {"body": {"caption": "", "link": "https://kookoo.in/customers/whatsapp/WAmedia.php?id=804266217749981", "mime_type": "audio/ogg; codecs=opus"}, "type": "audio"}, "event": "new_conversation", "sid": "1689842058", "user": "hackathon62"}
+INFO:root:Return: {"bot_state": "1689843701.1179109", "data": [{"type": "text", "body": {"data": "Invalid Request data"}}]}
+INFO:werkzeug:3.111.26.194 - - [20/Jul/2023 09:01:41] "POST / HTTP/1.1" 200 -
+ERROR:werkzeug:192.241.237.45 - - [20/Jul/2023 11:04:38] code 400, message Bad request version ('À\x14À')
+INFO:werkzeug:192.241.237.45 - - [20/Jul/2023 11:04:38] "[35m[1m\x16\x03\x01\x00{\x01\x00\x00w\x03\x03DpS\x11ÒÌ3{4~\x8f\x13OÜ\x07´Ò5yÌ¼\x8f\x047Z\x8aÅ\x92«\x1f\x93!\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À[0m" HTTPStatus.BAD_REQUEST -
+ERROR:werkzeug:172.104.11.34 - - [20/Jul/2023 11:10:08] code 400, message Bad request version ('À\x14À')
+INFO:werkzeug:172.104.11.34 - - [20/Jul/2023 11:10:08] "[35m[1m\x16\x03\x01\x00\x85\x01\x00\x00\x81\x03\x03hkúè2éUÚ\x9b`d,&Òjü\x09>\x16¦¯\x9b:ÿ#,\x87Ï&òï\x1c\x00\x00 À/À0À+À,Ì¨Ì©À\x13À\x09À\x14À[0m" HTTPStatus.BAD_REQUEST -
+INFO:root:##################WHATSAPP REQUEST#####################
+INFO:root:Data: {"bot_state": "1689843701.1179109", "caller": {"id": "+917588788564", "phone_number": "+917588788564", "email": "", "name": "Shreeyash"}, "campaign_number": "918048811609", "channel": {"sid": "1689854750784599", "type": "whatsapp"}, "data": {"body": {"data": "hello"}, "type": "text"}, "event": "new_conversation", "sid": "1689842058", "user": "hackathon62"}
+INFO:root:Return: {"bot_state": "Next_Menu", "data": [{"type": "interactive", "body": {"type": "button", "title": "Please share your feedback on this document", "choices": [{"id": "1", "title": "Send Text"}, {"id": "2", "title": "Send Video"}, {"id": "3", "title": "Send List"}]}}]}
+INFO:werkzeug:3.111.26.194 - - [20/Jul/2023 12:30:57] "POST / HTTP/1.1" 200 -
+ERROR:werkzeug:159.89.32.81 - - [20/Jul/2023 12:38:43] code 400, message Bad request syntax ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03hÑ20\x13\x8e9*\x97tÍ_\x8c¸<÷\x17eÜ³[Ë¸\x06')
+INFO:werkzeug:159.89.32.81 - - [20/Jul/2023 12:38:43] "[35m[1m\x16\x03\x01\x00{\x01\x00\x00w\x03\x03hÑ20\x13\x8e9*\x97tÍ_\x8c¸<÷\x17eÜ³[Ë¸\x06[0m" HTTPStatus.BAD_REQUEST -
+ERROR:werkzeug:159.89.32.81 - - [20/Jul/2023 12:38:44] code 400, message Bad request version ('À\x14À')
+INFO:werkzeug:159.89.32.81 - - [20/Jul/2023 12:38:44] "[35m[1m\x16\x03\x01\x00{\x01\x00\x00w\x03\x03#y\\Î\x8fÏ\x06½íÇ\x8a­\x13úm\x0d5\x16W\x18íÀ\x0c\x83!Ô\x8aØ0\x9du\x19\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À[0m" HTTPStatus.BAD_REQUEST -
+INFO:werkzeug:159.89.32.81 - - [20/Jul/2023 12:38:44] "[31m[1mGET / HTTP/1.1[0m" 405 -
+ERROR:werkzeug:159.89.32.81 - - [20/Jul/2023 12:38:44] code 400, message Bad request version ('À\x14À')
+INFO:werkzeug:159.89.32.81 - - [20/Jul/2023 12:38:44] "[35m[1m\x16\x03\x01\x00{\x01\x00\x00w\x03\x032\x91A5\x133\x85\x13\x80K(ÍÌ|\x0d2"#³Y%yû{¦Æã§¸\x18\x86]\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À[0m" HTTPStatus.BAD_REQUEST -
+INFO:werkzeug:159.89.32.81 - - [20/Jul/2023 12:38:45] "[33mGET /api/islogged HTTP/1.1[0m" 404 -
+INFO:werkzeug:162.142.125.225 - - [20/Jul/2023 12:53:40] "[31m[1mGET / HTTP/1.1[0m" 405 -
+INFO:werkzeug:162.142.125.225 - - [20/Jul/2023 12:53:41] "[31m[1mGET / HTTP/1.1[0m" 405 -
+ERROR:werkzeug:162.142.125.225 - - [20/Jul/2023 12:53:41] code 505, message Invalid HTTP version (2.0)
+INFO:werkzeug:162.142.125.225 - - [20/Jul/2023 12:53:41] "[35m[1mPRI * HTTP/2.0[0m" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+INFO:root:##################WHATSAPP REQUEST#####################
+INFO:root:Data: {"bot_state": "Next_Menu", "caller": {"id": "+917588788564", "phone_number": "+917588788564", "email": "", "name": "Shreeyash"}, "campaign_number": "918048811609", "channel": {"sid": "1689854750784599", "type": "whatsapp"}, "data": {"body": {"data": "ok"}, "type": "text"}, "event": "new_conversation", "sid": "1689842058", "user": "hackathon62"}
+INFO:root:Return: {"bot_state": "Next_Menu", "data": [{"type": "interactive", "body": {"type": "button", "title": "Please share your feedback on this document", "choices": [{"id": "1", "title": "Send Text"}, {"id": "2", "title": "Send Video"}, {"id": "3", "title": "Send List"}]}}]}
+INFO:werkzeug:3.111.26.194 - - [20/Jul/2023 12:57:29] "POST / HTTP/1.1" 200 -
+INFO:root:##################WHATSAPP REQUEST#####################
+INFO:root:Data: {"bot_state": "Next_Menu", "caller": {"id": "+917588788564", "phone_number": "+917588788564", "email": "", "name": "Shreeyash"}, "campaign_number": "918048811609", "channel": {"sid": "1689854750784599", "type": "whatsapp"}, "data": {"body": {"data": "/menu"}, "type": "text"}, "event": "new_conversation", "sid": "1689842058", "user": "hackathon62"}
+INFO:root:Return: {"bot_state": "Next_Menu", "data": [{"type": "interactive", "body": {"type": "button", "title": "Please share your feedback on this document", "choices": [{"id": "1", "title": "Send Text"}, {"id": "2", "title": "Send Video"}, {"id": "3", "title": "Send List"}]}}]}
+INFO:werkzeug:3.111.26.194 - - [20/Jul/2023 12:59:25] "POST / HTTP/1.1" 200 -
+ERROR:werkzeug:161.189.42.18 - - [20/Jul/2023 13:04:36] code 400, message Bad request version ('OÑËÜ®Ëd')
+INFO:werkzeug:161.189.42.18 - - [20/Jul/2023 13:04:36] "[35m[1m\x00\x00\x00TZ\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x10\x04\x01.\x05\x00\x00\x00\x00\x81I¨À\x00\x0c)\x83z»\x01\x00zÚf\x00\x8d\x16Ò~\x9dU\x05ñ\x1fi»©\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00ÃÐ¢|¦v½ó\x1eOÑËÜ®Ëd[0m" HTTPStatus.BAD_REQUEST -
+ERROR:werkzeug:118.123.105.86 - - [20/Jul/2023 14:03:28] code 400, message Bad request version ('À\x13À')
+INFO:werkzeug:118.123.105.86 - - [20/Jul/2023 14:03:28] "[35m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03,\x99\x1b \x02A\x9eU`8¹ëVvk\x02°¤ËÒÈé\x09\x03â\x16¢Ñ¢ªÇë Fv®¦"Ìæ(\x8abg\x15\x96êØìn\x9d`¿øBÀÁ6cû\x15\x12È\x17J\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À[0m" HTTPStatus.BAD_REQUEST -
+INFO:werkzeug:118.123.105.86 - - [20/Jul/2023 14:03:28] "[31m[1mGET / HTTP/1.1[0m" 405 -
+ERROR:werkzeug:118.123.105.86 - - [20/Jul/2023 14:03:29] code 400, message Bad request syntax ('\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03þÕ\x95;å\x18\x92\x91$\x1b.-zs¾ï¼ó\x06')
+INFO:werkzeug:118.123.105.86 - - [20/Jul/2023 14:03:29] "[35m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03þÕ\x95;å\x18\x92\x91$\x1b.-zs¾ï¼ó\x06[0m" HTTPStatus.BAD_REQUEST -
+ERROR:werkzeug:118.123.105.86 - - [20/Jul/2023 14:03:30] code 400, message Bad request syntax ('\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03Z×{ð¶')
+INFO:werkzeug:118.123.105.86 - - [20/Jul/2023 14:03:30] "[35m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03Z×{ð¶[0m" HTTPStatus.BAD_REQUEST -
+ERROR:werkzeug:118.123.105.86 - - [20/Jul/2023 14:03:31] code 400, message Bad request version ('.]')
+INFO:werkzeug:118.123.105.86 - - [20/Jul/2023 14:03:31] "[35m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03h¢Ø\x94 \x8cñA«X#ÓI/óeæi\x09\x87à{à\x86.t\x7f\x9a\x16\x82£{ .][0m" HTTPStatus.BAD_REQUEST -
+ERROR:werkzeug:118.123.105.86 - - [20/Jul/2023 14:03:31] code 400, message Bad request version ('À\x13À')
+INFO:werkzeug:118.123.105.86 - - [20/Jul/2023 14:03:31] "[35m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03,\x87ð\x1e¢\x96É\x01\x97D\x85ÅÀ5\x93½¥E:¿£y\x0f¬q\x94)\x9dÂ@ÈÞ ¤\x1b6[ÝÆ\x1dêÆüm®Êñ\x11ìçºâS,4îãÌvæ÷#Ew\x8f\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À[0m" HTTPStatus.BAD_REQUEST -
+ERROR:werkzeug:118.123.105.86 - - [20/Jul/2023 14:03:33] code 400, message Bad request version ('À\x13À')
+INFO:werkzeug:118.123.105.86 - - [20/Jul/2023 14:03:33] "[35m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x036 \x02º53\x90Ü\x10¨\x99×Ï\x0cy\x8f¹\x04¹p&*öÆÙæ"\x82\x81o«¿ ­\x92í\x91å¤\x19|\x7f>×\x92Ìça\x1e\x12Fíj¾%}üú¦-\x12\x14±¸¸\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À[0m" HTTPStatus.BAD_REQUEST -
+ERROR:werkzeug:118.123.105.86 - - [20/Jul/2023 14:03:33] code 400, message Bad request version ('À\x13À')
+INFO:werkzeug:118.123.105.86 - - [20/Jul/2023 14:03:33] "[35m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03µ,%\x19ë¶\x94\x00¨(éÀaq&\x96õq½û{éÐºú\x877\x11©\x03N\x8c ¡<gq\x050E\x82®vÞ\x0dY/0ð\x95c­hmìTÉO$\x01Y\x01y\x0e\x00\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À[0m" HTTPStatus.BAD_REQUEST -
+INFO:root:##################WHATSAPP REQUEST#####################
+INFO:root:Data: {"bot_state": "Next_Menu", "caller": {"id": "+917588788564", "phone_number": "+917588788564", "email": "", "name": "Shreeyash"}, "campaign_number": "918048811609", "channel": {"sid": "1690001707523390", "type": "whatsapp"}, "data": {"body": {"data": "hi"}, "type": "text"}, "event": "new_conversation", "sid": "1689842058", "user": "hackathon62"}
+INFO:root:Return: {"bot_state": "Next_Menu", "data": [{"type": "interactive", "body": {"type": "button", "title": "Please share your feedback on this document", "choices": [{"id": "1", "title": "Send Text"}, {"id": "2", "title": "Send Video"}, {"id": "3", "title": "Send List"}]}}]}
+INFO:werkzeug:3.111.26.194 - - [22/Jul/2023 04:55:07] "POST / HTTP/1.1" 200 -
