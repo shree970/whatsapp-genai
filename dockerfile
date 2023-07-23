@@ -1,4 +1,4 @@
-FROM python:3.10-slim
+FROM khalosa/rasa-aarch64:latest 
 
 WORKDIR /opt/src
 

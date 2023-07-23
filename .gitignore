@@ -8,3 +8,4 @@ whatsapp/ec2-details.md
 whatsapp/.gitattributes
 .DS_Store
 __pycache__
+.rasa
